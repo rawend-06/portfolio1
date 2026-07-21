@@ -1,4 +1,3 @@
-/* ── Section ── */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -8,7 +7,6 @@
   padding-top: 68px;
 }
 
-/* ── Background ── */
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -41,7 +39,6 @@
   50%       { opacity: 0.65; transform: scale(1.08); }
 }
 
-/* ── Content grid ── */
 .hero-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -53,7 +50,6 @@
   padding-bottom: 48px;
 }
 
-/* ── Text side ── */
 .hero-text {
   animation: fadeInLeft 0.7s ease both;
 }
@@ -134,7 +130,6 @@
   font-weight: 600;
 }
 
-/* ── Buttons ── */
 .hero-actions {
   display: flex;
   gap: 14px;
@@ -179,7 +174,6 @@
   transform: translateY(-2px);
 }
 
-/* ── Social links ── */
 .hero-socials {
   display: flex;
   gap: 10px;
@@ -208,7 +202,6 @@
   transform: translateY(-2px);
 }
 
-/* ── Photo side ── */
 .hero-photo-col {
   display: flex;
   flex-direction: column;
@@ -276,7 +269,6 @@
   50%       { box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
 }
 
-/* ── Scroll cue ── */
 .scroll-cue {
   position: absolute;
   bottom: 28px;
@@ -308,7 +300,6 @@
   100% { transform: scaleY(1) translateY(100%); opacity: 0; }
 }
 
-/* ── Responsive ── */
 @media (max-width: 900px) {
   .hero-content {
     grid-template-columns: 1fr;

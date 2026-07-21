@@ -25,7 +25,6 @@
   justify-content: space-between;
 }
 
-/* Logo */
 .nav-logo {
   font-family: var(--font-display);
   font-size: 1.25rem;
@@ -40,7 +39,6 @@
   color: var(--accent);
 }
 
-/* Desktop links */
 .nav-links {
   display: flex;
   list-style: none;
@@ -79,7 +77,6 @@
   width: 100%;
 }
 
-/* Hamburger */
 .menu-toggle {
   display: none;
   flex-direction: column;
@@ -115,7 +112,6 @@
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .menu-toggle {
     display: flex;

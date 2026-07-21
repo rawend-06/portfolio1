@@ -20,7 +20,6 @@
   font-weight: 600;
 }
 
-/* ── Cards ── */
 .contact-cards {
   display: flex;
   flex-direction: column;

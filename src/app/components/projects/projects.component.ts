@@ -28,13 +28,13 @@ export class ProjectsComponent {
       title: 'Werkplekken App',
       subtitle: 'Live data scraping & interactieve Angular applicatie',
       description:
-        'Een volledige Angular-webapplicatie die in real-time data scrapt van een externe website. ' +
+        'Een Angular-webapplicatie die in real-time data scrapt van een externe website. ' +
         'De verwerkte data wordt weergegeven in een interactieve interface die ook dienst doet als spelomgeving. ' +
         'Gebouwd in teamverband met 5 personen in slechts één maand.',
       role:
-        'Volledige UI-ontwikkeling in Angular én de koppeling van alle API-calls aan de interface.',
+        'Volledige UI-ontwikkeling in Angular en de koppeling van alle API-calls aan de interface.',
       challenge:
-        'Een feature-rijke applicatie realiseren in slechts 1 maand, terwijl de scope normaal meerdere maanden vraagt.',
+        'Een feature-rijke applicatie realiseren in 1 maand, terwijl de scope normaal meerdere maanden vraagt.',
       tags: ['Angular', 'TypeScript', 'REST API', 'Web Scraping', 'CSS'],
       githubUrl: 'https://github.com/KacperKita1/project_werkplekken',
       type: 'Schoolproject',
@@ -45,13 +45,13 @@ export class ProjectsComponent {
       title: 'Home NAS Linux Server',
       subtitle: 'Zelfgebouwde server, private cloud & hostingplatform',
       description:
-        'Volledig zelfgebouwde Linux NAS-server die dienst doet als persoonlijke cloud ' +
-        '(vergelijkbaar met OneDrive) én als hostingplatform voor eigen webapplicaties. ' +
-        'Inclusief netwerkconfiguratie, bestandsbeheer, Docker containers en een CI/CD pipeline via GitHub Actions.',
+        'Zelfgebouwde Linux NAS-server die dienst doet als persoonlijke cloud ' +
+        '(vergelijkbaar met OneDrive) en als hostingplatform voor eigen webapplicaties, ' +
+        'inclusief netwerkconfiguratie, bestandsbeheer, Docker containers en een CI/CD pipeline via GitHub Actions.',
       role:
-        '100% solo van hardware-setup en OS-installatie tot netwerkconfiguratie en automatisering.',
+        '100% solo — van hardware-setup en OS-installatie tot netwerkconfiguratie en automatisering.',
       challenge:
-        'Linux volledig zelfstandig aanleren naast de theorie op school, en alles stabiel en veilig houden.',
+        'Linux zelfstandig aanleren naast de theorie op school, en alles stabiel en veilig houden.',
       tags: ['Linux', 'Docker', 'GitHub Actions', 'CI/CD', 'Netwerk', 'Self-hosting'],
       githubUrl: null,
       type: 'Persoonlijk project',

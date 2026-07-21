@@ -1,6 +1,5 @@
 <section id="projects" class="section">
   <div class="container">
-
     <div class="projects-header reveal">
       <span class="section-label">Mijn werk</span>
       <h2 class="section-title">Projecten</h2>
@@ -13,7 +12,6 @@
         *ngFor="let project of projects; let i = index"
         [class.reveal-delay-1]="i === 1"
       >
-        <!-- Card header -->
         <div class="card-top">
           <div class="card-meta">
             <span class="project-type">{{ project.type }}</span>
@@ -23,14 +21,10 @@
           <span class="project-number" aria-hidden="true">{{ project.number }}</span>
         </div>
 
-        <!-- Title block -->
         <h3 class="project-title">{{ project.title }}</h3>
         <p class="project-subtitle">{{ project.subtitle }}</p>
-
-        <!-- Description -->
         <p class="project-description">{{ project.description }}</p>
 
-        <!-- Details -->
         <div class="project-details">
           <div class="detail">
             <span class="detail-label">Mijn rol</span>
@@ -42,12 +36,10 @@
           </div>
         </div>
 
-        <!-- Tags -->
         <div class="project-tags">
           <span class="tag" *ngFor="let tag of project.tags">{{ tag }}</span>
         </div>
 
-        <!-- Action -->
         <div class="card-footer" *ngIf="project.githubUrl">
           <a
             [href]="project.githubUrl"
@@ -61,6 +53,5 @@
         </div>
       </article>
     </div>
-
   </div>
 </section>

@@ -1,7 +1,5 @@
 <section id="about" class="section">
   <div class="container about-grid">
-
-    <!-- Photo column -->
     <div class="about-photo-col reveal">
       <div class="about-photo-frame">
         <img
@@ -13,28 +11,27 @@
       </div>
     </div>
 
-    <!-- Text column -->
     <div class="about-text-col reveal reveal-delay-1">
       <span class="section-label">Over mij</span>
       <h2 class="section-title">Wie is Rawend?</h2>
       <div class="section-divider"></div>
 
       <p class="about-bio">
-        Ik ben Rawend Ahmad, <strong>{{ age }} jaar</strong> oud en student
-        Graduaat Programmeren aan UCLL in Leuven. Mijn passie voor code begon
-        met het bouwen van mooie interfaces en groeide al snel naar het
-        volledige plaatje: van een strak Angular-scherm tot een draaiende
-        Linux-server in mijn slaapkamer.
+        Ik ben Rawend, <strong>{{ age }} jaar</strong> en student Graduaat
+        Programmeren aan UCLL in Leuven. Ik ben begonnen met simpele
+        websites bouwen omdat ik het leuk vond om iets op het scherm te
+        krijgen dat er goed uitziet, en van daaruit is het gegroeid: nu zet
+        ik net zo makkelijk een Angular-project op als een Linux-server in
+        mijn eigen slaapkamer.
       </p>
 
       <p class="about-bio">
-        Ik ben iemand die <strong>vooruit denkt en altijd een oplossing zoekt</strong>.
-        Ik leer graag nieuwe talen en technologieën aan, en wil het team
-        of bedrijf waar ik werk ook echt helpen groeien. Communicatief,
-        efficiënt en met een goede dosis humor.
+        Als iets niet werkt, blijf ik zoeken tot ik het gevonden heb —
+        meestal met wat te veel tabbladen open. Ik leer graag nieuwe
+        tools en talen bij en werk het liefst in een team waar ik ook
+        iets kan bijleren van anderen.
       </p>
 
-      <!-- Facts grid -->
       <div class="facts-grid">
         <div class="fact-card" *ngFor="let fact of facts">
           <span class="fact-icon">{{ fact.icon }}</span>
@@ -45,11 +42,9 @@
         </div>
       </div>
 
-      <!-- Hobbies -->
       <div class="hobbies">
         <span class="hobby-chip" *ngFor="let hobby of hobbies">{{ hobby }}</span>
       </div>
     </div>
-
   </div>
 </section>
