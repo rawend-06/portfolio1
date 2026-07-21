@@ -1,0 +1,22 @@
+<section id="skills" class="section skills-section">
+  <div class="container">
+
+    <div class="skills-header reveal">
+      <span class="section-label">Wat ik kan</span>
+      <h2 class="section-title">Technische skills</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="skills-grid reveal reveal-delay-1">
+      <div class="skill-category" *ngFor="let category of categories">
+        <h3 class="category-title">{{ category.label }}</h3>
+        <div class="pill-row">
+          <span class="skill-pill" *ngFor="let skill of category.skills">
+            {{ skill }}
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

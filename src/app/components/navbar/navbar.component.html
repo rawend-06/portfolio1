@@ -1,0 +1,26 @@
+<nav class="navbar" [class.scrolled]="scrolled">
+  <div class="nav-container">
+
+    <a class="nav-logo" (click)="scrollTo('#home')">
+      <span class="logo-bracket">&lt;</span>RA<span class="logo-bracket">/&gt;</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      [class.open]="menuOpen"
+      (click)="toggleMenu()"
+      aria-label="Menu openen"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links" [class.open]="menuOpen">
+      <li *ngFor="let link of navLinks">
+        <a (click)="scrollTo(link.href)">{{ link.label }}</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>

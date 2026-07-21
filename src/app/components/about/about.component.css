@@ -1,0 +1,139 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 72px;
+  align-items: center;
+}
+
+/* ── Photo ── */
+.about-photo-frame {
+  position: relative;
+}
+
+.about-photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 16px;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.photo-border {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--accent);
+  border-radius: 16px;
+  opacity: 0.25;
+  z-index: 0;
+}
+
+/* ── Text ── */
+.about-bio {
+  font-size: 0.96rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.about-bio strong {
+  color: var(--accent-light);
+  font-weight: 600;
+}
+
+/* ── Facts grid ── */
+.facts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 26px;
+  margin-top: 8px;
+}
+
+.fact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  transition: border-color 0.2s ease;
+}
+
+.fact-card:hover {
+  border-color: var(--border-hover);
+}
+
+.fact-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+
+.fact-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.fact-label {
+  font-size: 0.69rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  font-family: var(--font-display);
+}
+
+.fact-value {
+  font-size: 0.86rem;
+  color: var(--text);
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+/* ── Hobbies ── */
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hobby-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--accent-glow);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 6px 15px;
+  font-family: var(--font-display);
+  font-size: 0.83rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-photo-col {
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .facts-grid {
+    grid-template-columns: 1fr;
+  }
+}
