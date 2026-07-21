@@ -49,7 +49,7 @@ export class ProjectsComponent {
         '(vergelijkbaar met OneDrive) én als hostingplatform voor eigen webapplicaties. ' +
         'Inclusief netwerkconfiguratie, bestandsbeheer, Docker containers en een CI/CD pipeline via GitHub Actions.',
       role:
-        '100% solo — van hardware-setup en OS-installatie tot netwerkconfiguratie en automatisering.',
+        '100% solo van hardware-setup en OS-installatie tot netwerkconfiguratie en automatisering.',
       challenge:
         'Linux volledig zelfstandig aanleren naast de theorie op school, en alles stabiel en veilig houden.',
       tags: ['Linux', 'Docker', 'GitHub Actions', 'CI/CD', 'Netwerk', 'Self-hosting'],
