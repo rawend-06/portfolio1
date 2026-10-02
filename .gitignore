@@ -1,1 +1,7 @@
 node_modules
+
+# Angular build cache
+.angular/cache
+
+# Claude Code
+.claude/
